@@ -1,0 +1,48 @@
+/* Movies.css */
+.movies-container {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.title {
+  color: #333;
+}
+.preview {
+  padding: 10px 30px;
+  background-color: #f40612;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+}
+
+.pagination {
+  margin-top: 20px;
+}
+.prev-and-nxt-buttons {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  /* margin-left: 50%; */
+  /* background-color: aqua; */
+}
+.page-btn {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  margin: 5px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.page-btn:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.page-number {
+  font-size: 18px;
+  margin: 0 10px;
+}

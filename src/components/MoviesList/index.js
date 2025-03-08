@@ -23,7 +23,7 @@ class MoviesList extends Component {
               <h3>{title}</h3>
               <p>Rating: {voteAverage}</p>
               <Link to={`/movie/${id}`}>
-                <button>View Details</button>
+                <button type="submit">View Details</button>
               </Link>
             </div>
           )

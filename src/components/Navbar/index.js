@@ -23,7 +23,10 @@ class Navbar extends Component {
             placeholder="Search movies..."
             onChange={onSearchChange}
           />
-          <button onClick={() => history.push(`/search/${searchQuery}`)}>
+          <button
+            type="submit"
+            onClick={() => history.push(`/search/${searchQuery}`)}
+          >
             Search
           </button>
         </div>
